@@ -36,7 +36,7 @@ class calc():
 		self.display(self.current)
 		
 	def sum_of_total(self):
-		self.result = False
+		self.result = True
 		self.current = float(self.current)
 		if self.check_sum == False:
 			self.valid_function()
